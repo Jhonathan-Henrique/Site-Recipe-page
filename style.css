@@ -1,0 +1,82 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+body {
+    background: hsl(30, 54%, 90%)
+}
+.container {
+    background: #fff;
+    border-radius: 20px;
+    max-width: 700px;
+    width: 100%;
+    margin: 100px auto;
+    padding: 50px;
+}
+
+header img {
+    height: 300px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.tempo-preparo {
+    background: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.tempo-preparo ul {
+    padding: 0 30px;
+}
+
+.ingredientes ul {
+    padding: 0 20px;
+}
+
+li {
+    padding: 10px 0;
+}
+
+.ingredientes {
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.Instrucoes, .ingredientes, .nutricao h2 {
+    color: hsl(332, 51%, 32%);
+    padding: 16px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border-bottom: 1px solid #000; /* Adiciona uma borda preta de 1 pixel na parte inferior de cada célula */
+    padding: 8px; /* Adiciona algum espaçamento interno para melhorar a aparência */
+  }
+  
+  tr:last-child td {
+    border-bottom: none; /* Remove a borda inferior da última linha para evitar duplicatas */
+  }
